@@ -1,0 +1,91 @@
+<header class="header-site" role="banner">
+    <div class="content">
+        <div class="person">
+            <a href="{{ 'about' | prepend: site.baseurl }}">
+                <img alt="My photo" src="{{ site.profile_picture }}">
+                <small style="color: white"> (about me) </small>
+            </a>
+        </div>
+        <h2>
+            <span class="site-title">
+                [{{site.username}}]
+            </span>
+            <span class="site-subtitle"> Igor Soares </span>
+        </h2>
+        <div class="icons-home">
+            <a aria-label="Send email" title="Send me a e-mail" href="mailto:{{site.email}}">
+                <svg class="icon icon-email">
+                    <use xlink:href="#icon-email"></use>
+                </svg>
+            </a>
+
+            <a aria-label="My Github" title="Show my projects" target="_blank" href="https://github.com/{{site.github_username}}">
+                <svg class="icon icon-github-alt">
+                    <use xlink:href="#icon-github-alt"></use>
+                </svg>
+            </a>
+
+            <a aria-label="My Meetup" title="Show my meetup profile" target="_blank" href="https://www.meetup.com/members/{{site.meetup_id}}">
+                <svg class="icon icon-meetup">
+                    <use xlink:href="#icon-meetup"></use>
+                </svg>
+            </a>
+
+            <a aria-label="My Speakerdeck" title="Show my decks" target="_blank" href="https://speakerdeck.com//{{site.github_username}}">
+                <svg class="icon icon-speakerdeck">
+                    <use xlink:href="#icon-speakerdeck"></use>
+                </svg>
+            </a>
+
+            <a aria-label="My Twitter" title="Follow me on Twitter" target="_blank" href="https://twitter.com/{{site.twitter_username}}">
+                <svg class="icon icon-twitter">
+                    <use xlink:href="#icon-twitter"></use>
+                </svg>
+            </a>
+
+            <a aria-label="My instagram" title="Show instagram profile" target="_blank" href="https://www.instagram.com/{{site.instagram_username}}">
+                <svg class="icon icon-instagram">
+                    <use xlink:href="#icon-instagram"></use>
+                </svg>
+            </a>
+
+            <a aria-label="My CodeWars" title="Show my codewars profile" target="_blank" href="https://www.codewars.com/users/{{site.github_username}}">
+                <svg class="icon icon-codewars">
+                    <use xlink:href="#icon-codewars"></use>
+                </svg>
+            </a>
+
+            <a aria-label="My Dev.to" title="Show my dev.to profile" target="_blank" href="https://dev.to/{{site.github_username}}">
+                <svg class="icon icon-devto">
+                    <use xlink:href="#icon-devto"></use>
+                </svg>
+            </a>
+
+            <a aria-label="My LinkedIn" title="Show my linkedin profile" target="_blank" href="https://www.linkedin.com/in/{{site.linkedin_public_url}}">
+                <svg class="icon icon-linkedin">
+                    <use xlink:href="#icon-linkedin"></use>
+                </svg>
+            </a>
+
+            <a aria-label="My resume" title="Show resume" target="_blank" href="{{site.resume_url}}">
+                <svg class="icon icon-resume">
+                    <use xlink:href="#icon-resume"></use>
+                </svg>
+            </a>
+
+        </div>
+
+        <ul class="recent">
+            <p>Recent projects:</p>
+            {% for project in site.projects limit:3%}
+            <li>
+                <a title="{{ project.name }}" href="{{ project.url}}">
+                    <h2 class="post-title" itemprop="name">{{ project.name }}</h2>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+
+    </div>
+    {% include menu-search.html %}
+</header>

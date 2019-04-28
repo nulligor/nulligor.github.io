@@ -1,0 +1,55 @@
+# Site settings
+title: Igor Soares - Computer nerd, reflective lad, professional learner
+description: "Regular musings"
+baseurl: ""
+url: "https://nulligor.github.io"
+
+# User settings
+username: nulligor
+user_title: Igor Soares
+email: igor.larcs@gmail.com
+twitter_username: nulligor
+instagram_username: overly.dramatic
+github_username:  nulligor
+meetup_id: 221057668
+resume_url: https://drive.google.com/file/d/1AC0exae1OfU8Irux0sWQalwh-R0ocJzP/view
+linkedin_public_url: nulligor
+disqus_username: ripfoghorn
+profile_picture: https://pbs.twimg.com/profile_images/952234438624194561/jLaOHhhb_400x400.jpg
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+  - title: my posts
+    url: /posts
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
+  - title: about me
+    url: /about
+# projects in header index
+projects:
+  - name: drillr
+    url: https://github.com/nulligor/drillr
+  - name: ygo-psone-clone
+    url: https://github.com/nulligor/ygo-psone-clone/tree/feature/refactor
+  - name: project-euler
+    url: https://github.com/nulligor/project-euler
+  - name: chars-counterattack
+    url: https://github.com/nulligor/chars-counterattack
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
