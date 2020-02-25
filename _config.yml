@@ -1,6 +1,6 @@
 # Site settings
-title: Igor Soares - Computer nerd, reflective lad, professional learner
-description: "Regular musings"
+title: Corrupted by the darkness now you fall into and endless sleep
+description: "And other paths that result in failure and unnaceptance"
 baseurl: ""
 url: "https://nulligor.github.io"
 
@@ -45,14 +45,20 @@ links:
     url: /about
 # projects in header index
 projects:
-  - name: drillr
-    url: https://github.com/nulligor/drillr
-  - name: chars-counterattack
-    url: https://github.com/nulligor/chars-counterattack
   - name: project-euler
     url: https://github.com/nulligor/project-euler
   - name: pmapv
     url: https://github.com/nulligor/pmapv
+  - name: gull
+    url: https://github.com/nulligor/gull
   - name: poop-killer
     url: https://github.com/nulligor/poop-killer
+  - name: ygo-psone-clone
+    url: https://github.com/nulligor/ygo-psone-clone
+  - name: chars-counterattack
+    url: https://github.com/nulligor/chars-counterattack
+  - name: drillr
+    url: https://github.com/nulligor/drillr
+  - name: stamps
+    url: https://github.com/nulligor/stamps
 exclude: ['package.json', 'src', 'node_modules']
