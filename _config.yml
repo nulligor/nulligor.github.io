@@ -49,14 +49,8 @@ projects:
     url: https://github.com/nulligor/project-euler
   - name: pmapv
     url: https://github.com/nulligor/pmapv
-  - name: gull
-    url: https://github.com/nulligor/gull
   - name: poop-killer
     url: https://github.com/nulligor/poop-killer
-  - name: ygo-psone-clone
-    url: https://github.com/nulligor/ygo-psone-clone
-  - name: chars-counterattack
-    url: https://github.com/nulligor/chars-counterattack
   - name: drillr
     url: https://github.com/nulligor/drillr
   - name: stamps
