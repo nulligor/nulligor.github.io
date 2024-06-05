@@ -8,7 +8,6 @@ url: "https://nulligor.github.io"
 username: nulligor
 user_title: Igor Soares
 email: igor.larcs@gmail.com
-twitter_username: nulligor
 instagram_username: overly.dramatic
 github_username:  nulligor
 codewars_username: ripfoghorn
@@ -17,7 +16,7 @@ meetup_id: 221057668
 resume_url: https://drive.google.com/file/d/1I1JPtuWu9vX0p9gSTZdm8YJbz4Ha1m9M/view
 linkedin_public_url: nulligor
 disqus_username: ripfoghorn
-profile_picture: https://pbs.twimg.com/profile_images/1309525532548227075/KJ73sMm3_400x400.jpg
+profile_picture: https://lh3.googleusercontent.com/d/1egZeXgHJsKn3GKwFmTbPBS0v7yhdNHQV
 
 # Build settings
 markdown: kramdown
@@ -49,8 +48,8 @@ projects:
     url: https://github.com/nulligor/project-euler
   - name: pmapv
     url: https://github.com/nulligor/pmapv
-  - name: poop-killer
-    url: https://github.com/nulligor/poop-killer
+  - name: gull
+    url: https://github.com/petlove/gull
   - name: drillr
     url: https://github.com/nulligor/drillr
   - name: stamps
